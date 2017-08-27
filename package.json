@@ -1,0 +1,17 @@
+{
+  "name": "fractal-test-symfony",
+  "version": "1.0.0",
+  "description": "Symfony Standard Edition ========================",
+  "main": "./fractal.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Bußmeyer",
+  "dependencies": {
+    "@frctl/fractal": "^1.1.5",
+    "fractal-test": "bussmeyer/fractal-test"
+  }
+}
