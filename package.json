@@ -3,15 +3,20 @@
   "version": "1.0.0",
   "description": "Symfony Standard Edition ========================",
   "main": "./fractal.js",
+  "repository": "https://github.com/Bussmeyer/fractal-test-symfony",
+  "license": "MIT",
   "directories": {
     "test": "tests"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Thomas Bußmeyer",
   "dependencies": {
     "@frctl/fractal": "^1.1.5",
     "fractal-test": "bussmeyer/fractal-test"
+  },
+  "scripts": {
+    "start": "fractal start --sync",
+    "build": "fractal build",
+    "export-templates": "fractal export -o app/Resources/views",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
